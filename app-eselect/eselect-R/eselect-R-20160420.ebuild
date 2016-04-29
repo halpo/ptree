@@ -15,5 +15,5 @@ S=${WORKDIR}
 
 src_install() {
 	insinto /usr/share/eselect/modules
-	newins "${WORKDIR}/R.eselect" R.eselect || die
+	newins "${WORKDIR}/${PF}/R.eselect" R.eselect || die
 }
